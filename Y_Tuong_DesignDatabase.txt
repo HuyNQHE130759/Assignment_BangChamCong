@@ -1,0 +1,16 @@
+Login (usname,pass)
+
+//Lịch trong tháng(ngày? , trạng thái(lễ hội?)
+
+Register ngày làm (idRegis, usname, ngày(lịch), trạng thái (ca?,nghỉ phép)
+
+chấm công(idRegis, usname, giờ bắt đầu, giờ kết thúc check in checkout, ngày,
+ĐK: if ca sáng (checkin start : 8:00, checkout : 15:00) 
+	if ca tối ( checkin start 15:00, checkout :22:00)
+	if cả ngày (checkin start 8:00, checkout :22:00)
+iF checkin sáng 8:30 => display Muộn 30p
+if checkout sáng 14:00 = > display sớm 60p
+
+
+
+
