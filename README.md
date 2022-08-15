@@ -1,6 +1,7 @@
 # AssignmentChamCong
 Đây là file tài liệu nghiên cứu được phép tham khảo từ người nhà
 Requirements : 
+
 +) Bảng chấm công sẽ có Số Thứ Tự Nhân Viên, Tên Nhân Viên và 1 bảng bao gồm các ngày công trong tháng.
 +) Nhân viên có thể đánh dấu làm Ca Đêm, Ca Ngày hoặc là Fulltime (Cả ngày).
 +) Cách thức chấm công sẽ là chấm đủ theo các ngày và trả lương mỗi tháng.
