@@ -1,16 +1,22 @@
-Login (usname,pass)
-
 //Lịch trong tháng(ngày? , trạng thái(lễ hội?)
 
-Register ngày làm (idRegis, usname, ngày(lịch), trạng thái (ca?,nghỉ phép)
+(Removed)Register ngày làm (idRegis, usname, ngày(lịch), trạng thái (ca?,nghỉ phép)
 
-chấm công(idRegis, usname, giờ bắt đầu, giờ kết thúc check in checkout, ngày,
+Chấm công(idRegis, usname, giờ bắt đầu, giờ kết thúc check in checkout, ngày,
 ĐK: if ca sáng (checkin start : 8:00, checkout : 15:00) 
 	if ca tối ( checkin start 15:00, checkout :22:00)
 	if cả ngày (checkin start 8:00, checkout :22:00)
-iF checkin sáng 8:30 => display Muộn 30p
-if checkout sáng 14:00 = > display sớm 60p
+(Removed)iF checkin sáng 8:30 => display Muộn 30p
+(Removed)if checkout sáng 14:00 = > display sớm 60p
 
+Các ca làm được chia theo Shifts
+Được kiểm tra nvien có overtime hay k (PHẢI CÓ LÝ DO RÕ RÀNG - tính theo yes/no)
 
+Tình trạng đi hay ở của nhân viên cũng phải đc thống kê lại,
+chia theo status yes/no
 
+*) Fix ?
++) Có cách nào để lọc số lượng overtime ra số giờ chuẩn hay không ?
++) Tổng overtime có nên lọc từ số ngày hay không ?
++) Có nhất thiết phải thêm status cho bảng Leave_Stay không ?
 
