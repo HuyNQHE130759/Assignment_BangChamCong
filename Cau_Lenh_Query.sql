@@ -13,7 +13,13 @@ SELECT * FROM Working_Table
 
 SELECT * FROM Working_Table where workingdate_id = 3
 
-select * from ngày công detail where chấm công type = ?			/* lấy được info ca sáng hay tối cho vào text  */
+select * from ngày công detail where chấm công type = ?			/* lấy được info ca sáng hay tối,vv cho vào text  */
 SELECT * FROM workingDate_Detail
 
 SELECT * FROM workingDate_Detail where Timekeep_type = 1
+
+SELECT Working_Table.Timekeep_id, Working_Table.Timekeep_type, workingDate_Detail.Timekeep_name, Working_Table.workingdate_id, Working_Table.checkin, Working_Table.checkout, Working_Table.otTime, Working_Table.Totaltime FROM Working_Table
+ join workingDate_Detail on workingDate_Detail.Timekeep_type = Working_Table.Timekeep_type where Working_Table.workingdate_id = 3
+
+SELECT Working_Table.Timekeep_id, Working_Table.Timekeep_type, workingDate_Detail.Timekeep_name, Working_Table.workingdate_id, Working_Table.checkin, Working_Table.checkout, Working_Table.otTime, Working_Table.Totaltime FROM Working_Table
+ join workingDate_Detail on workingDate_Detail.Timekeep_type = Working_Table.Timekeep_type where Working_Table.Timekeep_id = 8

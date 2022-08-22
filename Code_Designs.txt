@@ -1,0 +1,27 @@
+Goij het employee | Select * from Employee
+
+Tra ve arraylist employee list eList ( eid , ename )
+
+workList, workListbyEmployee
+for (i = 0; i < eList.length; i++){
+SELECT* FROM workingDate WHERE MONTH(date) = 8 and eid = eList[i].eid
+Add tung` workListbyEmployee(workingDate_id, date)
+
+Add tung` workList( eid , workListbyEmployee)
+
+Frontend:
+
+if thang 1 length = 30 thang 2 length = 31
+
+for date 0 -> length -1
+
+
+if(date+1 == workList.workListbyEmployee.date){
+
+Employee name | ngay 1| ngay 2 | ngay 3
+
+for eList{
+
+eList.eid |  for workList { if(workList[i].eid == eList.eid){for workList[i].workListbyEmployee) for(date 1 > 30)  if(date+1 == workList.workListbyEmployee.date) true display else blank{
+
+}
